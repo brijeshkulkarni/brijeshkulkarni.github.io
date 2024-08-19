@@ -1,4 +1,129 @@
-<html>  
-    <head>me head</head>
-    <body>about me check</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brijesh's CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #0e063a;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        .active {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Brijesh</h1>
+        <nav>
+            <ul>
+                <li><a href="#about" class="active">About and reach me</a></li>
+                <li><a href="#skills">Technical skills</a></li>
+                <li><a href="#ml">ML from scratch</a></li>
+                <li><a href="#education">Education/Certifcations/Courses</a></li>
+                <li><a href="#cv">My CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am Brijesh, a passionate Machine Learning Engineer with expertise in developing and deploying applications built using Large Language Models (LLMs), Like Retrieval-Augmented Generation (RAG) systems, Agent based systems, LLM fine-tuning  and advanced text analysis solutions. My work primarily focuses on leveraging AI to solve real-world problems</p>
+
+            <p>Please check my CV for more details on the projects</p>
+            
+            <br/>
+            <br/>
+            <h3>Fun projects</h3>
+            Here are some fun projects I have worked on:
+            <h4>seethetruth.in, visit <a href="https://seethetruth.in/" target="_blank">here</a></h4>
+            <p>With this seethetruth tool, I've designed a way to help differentiate between factual information and personal viewpoints. It allows you to spot any ideological or political biases embedded in the youtube video or news article, giving you insights into who the author might be targeting or aiming to benefit through the news story</p>
+
+
+            <h4>Sequence Diagram Python Package, check<a href="https://pypi.org/project/sequenceDiagram/" target="_blank">here</a></h4>
+            <p>This Python library generates sequence diagrams for your Python code using the Mermaid.js format. It allows you to visualize the interactions between various parts of your code, aiding in better understanding and documentation.</p>
+            
+            <br/>
+            <br/>
+            <h3>Reach Me</h3>
+            <p>Reach out to me via:</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:brijesh.kulkarni@gmail.com">brijesh.kulkarni@gmail.com</a></li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Prompt Engineering</li>
+                <li>LLM Finetuning</li>
+                <li>LLM Agents</li>
+                <li>LLM APIs (OpenAI ChatGPT APIs, LLAMA, etc.)</li>
+                <li>RAG/Semantic Search</li>
+                <li>Langchain and LangGraph</li>
+            </ul>
+            
+        </section>
+
+        <section id="ml">
+            <h2>ML from Scratch</h2>
+            <p>This section has fundamental machine learning components implementation from scratch, This is to build a deeper understanding of the components</p>
+            <ul>
+                <li>Drop out <a href="\scratch\Dropout.html"></a></li>
+                <li>More to come...</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p>B.E. in Electronics and Comm from VTU</p>
+            <p>Post Graduation Program in AI & ML from IIIT Bangalore</p>
+        </section>
+
+        <section id="cv">
+            <h2>My CV</h2>
+            <p>You can download my CV <a href="https://drive.google.com/file/d/1HYrsHTiSy53qoUFMC1Bcz6TCekNynsdX/view?usp=sharing" target="_blank">here</a>.</p>
+        </section>
+    </div>
+</body>
 </html>
