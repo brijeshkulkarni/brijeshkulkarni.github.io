@@ -49,6 +49,21 @@
         .active {
             font-weight: bold;
         }
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .image-container img {
+            width: 32%; /* Each image takes up 32% of the container's width */
+            margin-bottom: 10px;
+        }
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .image-container img {
+                width: 100%; /* Full width for smaller screens */
+            }
+        }
     </style>
 </head>
 <body>
@@ -78,7 +93,11 @@
             Here are some fun projects I have worked on:
             <h4>seethetruth.in, visit <a href="https://seethetruth.in/" target="_blank">here</a></h4>
             <p>With this seethetruth tool, I've designed a way to help differentiate between factual information and personal viewpoints. It allows you to spot any ideological or political biases embedded in the youtube video or news article, giving you insights into who the author might be targeting or aiming to benefit through the news story</p>
-
+            <div class="image-container">
+                <img src="/media/home.png" alt="Home">
+                <img src="/media/analysis.png" alt="Analysis">
+                <img src="/media/analysis2.png" alt="Analysis">
+            </div>
 
             <h4>Sequence Diagram Python Package, check<a href="https://pypi.org/project/sequenceDiagram/" target="_blank">here</a></h4>
             <p>This Python library generates sequence diagrams for your Python code using the Mermaid.js format. It allows you to visualize the interactions between various parts of your code, aiding in better understanding and documentation.</p>
